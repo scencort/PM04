@@ -48,23 +48,23 @@ sudo ufw status
 ### Выполнить установку базового программного обеспечения
 - Устанавливаем в любом случае (если не установлено) пакет libreoffice, а остальное по желанию. Желательно установить 3-4 приложения
 ```
-sudo apt install -y \
-libreoffice \
-curl \
-wget \
-git \
-htop \
-mc \
-vim \
-nano \
-net-tools \
-lsb-release \
-unzip \
-zip \
-build-essential \
-software-properties-common \
-ca-certificates \
-gnupg \
+sudo apt install -y <название программы>
+libreoffice
+curl
+wget
+git
+htop
+mc
+vim
+nano
+net-tools
+lsb-release
+unzip
+zip
+build-essential
+software-properties-common
+ca-certificates
+gnupg
 ufw
 ```
 
