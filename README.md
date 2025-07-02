@@ -22,6 +22,7 @@ sudo systemctl enable ssh
 sudo systemctl start ssh
 sudo ufw allow ssh
 ```
+- Проверить, включён ли SSH или нет можно командой `sudo systemctl status ssh`
 
 ---
 
