@@ -14,6 +14,7 @@
   - Если хотите установить драйверы через терминал (это будет требовать Грач Мартынович), пишем:
 ```
 sudo ubuntu-drivers autoinstall
+```
 ---
 
 ### Настройка и установка SSH:
@@ -23,6 +24,7 @@ sudo systemctl enable ssh
 sudo systemctl start ssh
 sudo ufw allow ssh
 ```
+
 - Проверить, включён ли SSH или нет можно командой `sudo systemctl status ssh`
 
 ---
